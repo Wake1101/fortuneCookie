@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+    font-size: 62.5%;
+    --white-: #fff;
+}
+
+body{
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+    font-family: "DM Sans", sans-serif;
+}
+
+.hide{
+    display: none;
+}
+
+main{
+    background-color: var(--white-);
+}
+
+main h1{
+    font-family: Montserrat;
+}
