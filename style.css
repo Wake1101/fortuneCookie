@@ -31,3 +31,15 @@ main{
 main h1{
     font-family: Montserrat;
 }
+.button-wrapper{
+    position: relative;
+}
+
+.button-wrapper button{
+    position: absolute;
+    bottom: 0;
+    width: 265px;
+    height: 200px;
+    cursor: pointer;
+    opacity: 0;
+}
