@@ -13,9 +13,9 @@
 </head>
 <body>
     <main>
-        <div class="screen1">
+        <div class="screen1 hide">
             <h1>Qual é a sua sorte de hoje?</h1>
-            <p>Abra o biscoito e descubra!</p>
+            <p class="mainText">Abra o biscoito e descubra!</p>
             <img src="./assets/Ebene 4.svg" alt="">
             <div class="button-wrapper">
                 <button id="btnReveal">Clique</button>
@@ -23,12 +23,14 @@
             
         </div>
 
-        <div class="screen2 hide">
+        <div class="screen2">
             <h1>Aqui está a sua sorte de hoje:</h1>
-            <div class="fortuneText">
-                <p>Inserir texto aqui</p>
+            <div class="fortuneMessage">
+                <p id="fortuneReveal">Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.</p>
             </div>
-            <img src="" alt="imagem do cookie aberto">
+            <div class="fortuneText">
+            </div>
+            <img src="./assets/opened-cookie.svg" alt="imagem do cookie aberto">
             <button id="btnAgain">Abrir outro biscoito</button>
         </div>
         <script src="./script.js"></script>
