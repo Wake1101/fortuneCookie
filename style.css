@@ -42,7 +42,6 @@ main h1{
     margin: 1.4rem 0 2.0rem;
     text-align: center;
 }
-
 .button-wrapper{
     position: relative;
 }
@@ -54,6 +53,10 @@ main h1{
     height: 20.0rem;
     cursor: pointer;
     opacity: 0;
+}
+
+.button-wrapper:hover{
+    animation: vibration 0.3s linear infinite both;
 }
 
 .fortuneMessage{
@@ -89,3 +92,26 @@ main h1{
 .hide{
     display: none;
 }
+
+@keyframes vibration {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(-2px, 2px);
+    }
+    40% {
+      transform: translate(-2px, -2px);
+    }
+    60% {
+      transform: translate(2px, 2px);
+    }
+    80% {
+      transform: translate(2px, -2px);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+
+  
